@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyTorch 模型文件（太大不适合 GitHub）
+*.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志和临时文件
+*.log
+debug.log
+*.tmp
+
+# 图片测试文件（如果有需要可以保留）
+# img/
+
+# 系统文件
+.DS_Store
+Thumbs.db
